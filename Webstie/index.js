@@ -1,0 +1,4 @@
+let a = 10;
+let b = 1000;
+
+console.log(a);
