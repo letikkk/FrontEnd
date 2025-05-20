@@ -1,3 +1,15 @@
 body{
-    background-color: rgb(45, 52, 54);
+    background-color: rgb(255, 255, 255);
+}
+p{
+    color:rgb(255, 255, 255)
+}
+
+#randomNum{
+    color: rgb(0, 0, 0)
+}
+
+#RandomButton{
+    background-color: rgb(0, 68, 255);
+    color: rgb(255, 255, 255);
 }

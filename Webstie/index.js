@@ -1,4 +1,11 @@
-let a = 10;
-let b = 1000;
+let randomNum;
 
-console.log(a);
+function notBadRandom(toNum){
+    randomNum = Math.floor(Math.random() * toNum)
+    return randomNum
+}
+
+document.getElementById("RandomButton").onclick = function(){
+    randomNum = Math.floor(Math.random() * 100)
+    document.getElementById("randomNum").innerText = randomNum;
+}
